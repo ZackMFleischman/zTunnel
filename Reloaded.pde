@@ -1,10 +1,6 @@
 import SimpleOpenNI.*;
-//import codeanticode.gsvideo.*;
 import processing.video.*;
 import ddf.minim.*;
-
-
-//import SimpleOpenNI.*;
 
 ZTunnel gTunnel;
 

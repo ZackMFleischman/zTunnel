@@ -2,6 +2,7 @@
 <TunnelCfg>
 
 	<animation id="TestAnim1"
+					 author="Mike Newhall"
 		       type="TestAnim"
 		       duration="30">
 		<imageFile name="zynganodog.png"
@@ -11,6 +12,7 @@
 	</animation>
 	<animation id="Pong1"
 		       type="Pong"
+		       author="Ben Taller"
 		       duration="30">
 		<imageFile name="zynganodog.png"
 				   duration="80">
@@ -19,6 +21,7 @@
 	</animation>
 	<animation id="JasonB_FV2W_IPTunnelParty"
 		       type="IPTunnelParty"
+		       author="Jason Bucher"
 		       duration="30">
 		<imageFile name="FVLogo.png" duration="80" />
 		<imageFile name="goat0001.tga" duration="80" />
@@ -30,30 +33,37 @@
 
 	<animation id="ScottStarTunnel_Test"
 		       type="ScottStarTunnel"
+		       author="Scott Peterson"
 		       duration="30">
 	</animation>
 	<animation id="JAHRipples"
 		       type="Ripples"
+		       author="Joshua Hart"
 		       duration="30">
 	</animation>
 	<animation id="JAHWhisps"
 		       type="Whisps"
+		       author="Joshua Hart"
 		       duration="30">
 	</animation>
 	<animation id="JAHLudicrousSpeed"
 		       type="LudicrousSpeed"
+		       author="Joshua Hart"
 		       duration="30">
 	</animation>
 	<animation id="DavidD_AccessGranted"
 		       type="AccessGranted"
+		       author="David Daudelin"
 		       duration="30">
 	</animation>
 	<animation id="JasonB_TunnelParty"
 		       type="TunnelParty"
+		       author="Jason Bucher"
 		       duration="30">
 	</animation>
 	<animation id="JasonB_LooneyLogoTest"
 		       type="SimpleImage"
+		       author="Jason Bucher"
 		       duration="30">
 		       <imageFile name="looneyLogo.png"
 				   duration="80">
@@ -62,6 +72,7 @@
 
 	<animation id="JasonB_WWFLogoTest"
 		       type="SimpleImage"
+		       author="Jason Bucher"
 		       duration="30">
 		       <imageFile name="wordsLogo.png"
 				   duration="80">
@@ -70,6 +81,7 @@
 
 	<animation id="JasonB_EandALogoTest"
 		       type="SimpleImage"
+		       author="Jason Bucher"
 		       duration="30">
 		       <imageFile name="EandALogo.png"
 				   duration="80">
@@ -77,6 +89,7 @@
 	</animation>
 	<animation id="JasonB_AnimTest"
 		       type="FarmvilleAnimationTest"
+		       author="Jason Bucher"
 		       duration="30">
 		<imageFile name="goat0000.tga" duration="80" />
 		<imageFile name="goat0001.tga" duration="80" />
