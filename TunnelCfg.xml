@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<TunnelCfg>
+
+	<animation id="TestAnim1"
+		       type="TestAnim"
+		       duration="30">
+		<imageFile name="zynganodog.png"
+				   duration="80">
+		</imageFile>
+
+	</animation>
+	<animation id="Pong1"
+		       type="Pong"
+		       duration="30">
+		<imageFile name="zynganodog.png"
+				   duration="80">
+		</imageFile>
+
+	</animation>
+	<animation id="JasonB_FV2W_IPTunnelParty"
+		       type="IPTunnelParty"
+		       duration="30">
+		<imageFile name="FVLogo.png" duration="80" />
+		<imageFile name="goat0001.tga" duration="80" />
+		<imageFile name="goat0002.tga" duration="80" />
+		<imageFile name="goat0003.tga" duration="80" />
+		<imageFile name="goat0004.tga" duration="80" />
+		<imageFile name="goat0005.tga" duration="80" />
+	</animation>
+
+	<animation id="ScottStarTunnel_Test"
+		       type="ScottStarTunnel"
+		       duration="30">
+	</animation>
+	<animation id="JAHRipples"
+		       type="Ripples"
+		       duration="30">
+	</animation>
+	<animation id="JAHWhisps"
+		       type="Whisps"
+		       duration="30">
+	</animation>
+	<animation id="JAHLudicrousSpeed"
+		       type="LudicrousSpeed"
+		       duration="30">
+	</animation>
+	<animation id="DavidD_AccessGranted"
+		       type="AccessGranted"
+		       duration="30">
+	</animation>
+	<animation id="JasonB_TunnelParty"
+		       type="TunnelParty"
+		       duration="30">
+	</animation>
+	<animation id="JasonB_LooneyLogoTest"
+		       type="SimpleImage"
+		       duration="30">
+		       <imageFile name="looneyLogo.png"
+				   duration="80">
+		</imageFile>
+	</animation>
+
+	<animation id="JasonB_WWFLogoTest"
+		       type="SimpleImage"
+		       duration="30">
+		       <imageFile name="wordsLogo.png"
+				   duration="80">
+		</imageFile>
+	</animation>
+
+	<animation id="JasonB_EandALogoTest"
+		       type="SimpleImage"
+		       duration="30">
+		       <imageFile name="EandALogo.png"
+				   duration="80">
+		</imageFile>
+	</animation>
+	<animation id="JasonB_AnimTest"
+		       type="FarmvilleAnimationTest"
+		       duration="30">
+		<imageFile name="goat0000.tga" duration="80" />
+		<imageFile name="goat0001.tga" duration="80" />
+		<imageFile name="goat0002.tga" duration="80" />
+		<imageFile name="goat0003.tga" duration="80" />
+		<imageFile name="goat0004.tga" duration="80" />
+		<imageFile name="goat0005.tga" duration="80" />
+		<imageFile name="goat0006.tga" duration="80" />
+		<imageFile name="goat0007.tga" duration="80" />
+		<imageFile name="goat0008.tga" duration="80" />
+		<imageFile name="goat0009.tga" duration="80" />
+		<imageFile name="goat0010.tga" duration="80" />
+		<imageFile name="goat0011.tga" duration="80" />
+		<imageFile name="goat0012.tga" duration="80" />
+		<imageFile name="goat0013.tga" duration="80" />
+		<imageFile name="goat0014.tga" duration="80" />
+		<imageFile name="goat0015.tga" duration="80" />
+	</animation>
+<!--
+	<animation id="Pong1"
+		       type="Pong"
+		       duration="360">
+		<imageFile name="zynganodog.png"
+				   duration="80">
+		</imageFile>
+
+	</animation>
+	<animation id="FlockingParticlesAni0"
+		       type="FlockingParticlesAni"
+		       duration="120">
+		<imageFile name="logozynga.png"
+				   duration="60">
+		</imageFile>
+		<imageFile name="zynganodog.png"
+				   duration="30">
+		</imageFile>
+		<imageFile name="logozynga.png"
+				   duration="20">
+		</imageFile>
+	</animation>
+		<animation id="TestAnim1"
+		type="TestAnim"
+		duration="360">
+	</animation>-->
+</TunnelCfg>
