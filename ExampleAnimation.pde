@@ -8,7 +8,11 @@ public class ExampleAnimation implements Animation
   String        _name;
   TunnelDisplay _display;
 
-  ExampleAnimation(String name, AnimationResources resources, TunnelDisplay display, TunnelSense sense) {
+  ExampleAnimation(String name, 
+    AnimationResources resources, 
+    TunnelDisplay display, 
+    TunnelSense sense,
+    Minim minim) {
     _name     = name;
     _display  = display;
   }
