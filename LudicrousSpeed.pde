@@ -16,7 +16,7 @@ public class LudicrousSpeed implements Animation {
   public static final int     BG_RED               = (BG_COLOR>>16)&0xff;
   public static final int     BG_GREEN             = (BG_COLOR>>8)&0xff;
   public static final int     BG_BLUE              = BG_COLOR&0xff;
-  public static final int     BG_CLAMP_DISTANCE    = 100;
+  public static final int     BG_CLAMP_DISTANCE    = 50;
   public static final int     BG_CLAMP_DISTANCE_SQ = BG_CLAMP_DISTANCE * BG_CLAMP_DISTANCE;
   public static final int     BG_FADE_ALPHA        = 20;            // Larger number makes tails shorter
   public static final int     MIN_RADIUS           = 3;
@@ -49,6 +49,7 @@ public class LudicrousSpeed implements Animation {
 
   public void update() {
     fill(BG_COLOR, BG_FADE_ALPHA);
+    noStroke();
     rect(0, 0, width, height);
     // filter(BLUR, 1);
     for (LudicrousSpeedParticle p : particles) {

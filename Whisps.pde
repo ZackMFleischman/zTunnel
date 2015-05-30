@@ -54,6 +54,7 @@ public class Whisps implements Animation {
 
   public void update() {
     fill(BG_COLOR, BG_FADE_ALPHA);
+    noStroke();
     rect(0, 0, width, height);
     for (WhispParticle p : particles) {
       p.update();
