@@ -15,7 +15,7 @@ public class FarmvilleAnimationTest implements Animation
   float animTimer = 0.0;
     
   //constructor
-  FarmvilleAnimationTest(String             name,
+  FarmvilleAnimationTest(String             name,  
              AnimationResources resources,
              TunnelDisplay      display,
              TunnelSense        sense)

@@ -113,6 +113,10 @@ public class AnimationResources
                         {
                                 newAnimation = new IPTunnelParty(aniName, this, mDisplay, mSense, minim);
                         }
+                        else if(aniType.equals("ExampleAnimation"))
+                        {
+                                newAnimation = new ExampleAnimation(aniName, this, mDisplay, mSense, minim);
+                        }
                         else
 			{
 				println("AnimationResources::ctor Do not recognize animation " + aniName
