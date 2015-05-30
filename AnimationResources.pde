@@ -105,10 +105,6 @@ public class AnimationResources
                         {
                                 newAnimation = new LudicrousSpeed(aniName, this, mDisplay, mSense);
                         }
-                        else if(aniType.equals("TunnelFireworks"))
-                        {
-                                newAnimation = new TunnelFireworks(aniName, this, mDisplay, mSense);
-                        }
                         else if(aniType.equals("ScottStarTunnel"))
                         {
                                 newAnimation = new ScottStarTunnel(aniName, this, mDisplay, mSense);
