@@ -12,8 +12,29 @@ public class AnimationResources
 		mDisplay = display;
 		mSense = sense;
 
-		mXml = loadXML("TunnelCfg.xml");
+		String[] filesToTry = {
+			"TunnelCfg.local.xml",
+			"TunnelCfg.xml"
+		};
 		
+		String fileName = null;
+		for (int i = 0; i<filesToTry.length; i++) {
+			File file = new File(sketchPath(filesToTry[i]));
+			if (file.exists()) {
+				fileName = file.toString();
+				break;
+			}
+		}
+		
+		if (fileName == null) {
+			println("Missing XML File! - ERROR");
+			exit();
+		} else {
+			println("Reading config from " + fileName);
+		}
+  		
+		mXml = loadXML(fileName);
+
 		mAnimationElements = mXml.getChildren("animation");
 
 		mAnimations = new ArrayList<Animation>();
@@ -83,6 +104,10 @@ public class AnimationResources
                         else if(aniType.equals("LudicrousSpeed"))
                         {
                                 newAnimation = new LudicrousSpeed(aniName, this, mDisplay, mSense);
+                        }
+                        else if(aniType.equals("TunnelFireworks"))
+                        {
+                                newAnimation = new TunnelFireworks(aniName, this, mDisplay, mSense);
                         }
                         else if(aniType.equals("ScottStarTunnel"))
                         {
