@@ -17,5 +17,6 @@ done
 cat /Volumes/Tunnel/result | grep success
 result=$(echo $?)
 hdiutil detach /Volumes/Tunnel
+GLOBIGNORE=.*
 sudo chown -R jenkins:jenkins *
 exit $result
