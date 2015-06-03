@@ -1,6 +1,5 @@
 public class FarmvilleAnimationTest implements Animation
 {
-  tester test
   String             mName;
   AnimationResources mResources;    // AnimationResources object
   TunnelDisplay      mDisplay;    // The display bject on which to paint
