@@ -14,6 +14,6 @@ do
 done
 
 # check the result file to know if the deploy was successful
-result=cat /Volumes/Tunnel/result | grep success
+result=$(cat /Volumes/Tunnel/result | grep success)
 hdiutil detach /Volumes/Tunnel
 exit $result
