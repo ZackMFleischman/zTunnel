@@ -21,7 +21,7 @@ ln -nsf $old ~/Documents/Processing/current
 ln -nsf $current ~/Documents/Processing/old
 
 # run the new code, sleep to make sure startup has enough time to completely run
-nohup processing-java --run --sketch=/Users/admin/Documents/Processing/current --output=/Users/admin/Documents/Processing/current/output > /tmp/test 2>&1 &
+nohup processing-java --run --sketch=/Users/admin/Documents/Processing/current --output=/Users/admin/Documents/Processing/current/output >> /tmp/log 2>&1 &
 pid=$(echo $!)
 sleep 10
 
@@ -29,7 +29,7 @@ sleep 10
 if ! ps -ef | grep " $pid " | grep -v grep; then 
 	ln -nsf $old ~/Documents/Processing/old
 	ln -nsf $current ~/Documents/Processing/current
-	processing-java --run --sketch=/Users/admin/Documents/Processing/current --output=/Users/admin/Documents/Processing/current/output > /tmp/test 2>&1 &
+	processing-java --run --sketch=/Users/admin/Documents/Processing/current --output=/Users/admin/Documents/Processing/current/output >> /tmp/log 2>&1 &
 	echo fail > /Volumes/Tunnel/resulttemp
 else
 	echo success > /Volumes/Tunnel/resulttemp
