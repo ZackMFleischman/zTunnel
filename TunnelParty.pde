@@ -48,7 +48,7 @@ public class TunnelParty implements Animation {
     mDisplay = display;
     mSense = sense;
     
-    mPartyTarget = 7;
+    mPartyTarget = 5;
     mTunnelPartyHappening = false;
     
     mLocalTunnelTest = false;
