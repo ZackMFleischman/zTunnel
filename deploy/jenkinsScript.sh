@@ -1,5 +1,5 @@
 #!/bin/sh
-
+sudo chown -R admin:staff *
 GLOBIGNORE=deploy:.*:libraries
 
 # mount the empty drive then copy over all the files
@@ -17,4 +17,5 @@ done
 cat /Volumes/Tunnel/result | grep success
 result=$(echo $?)
 hdiutil detach /Volumes/Tunnel
+sudo chown -R jenkins:jenkins *
 exit $result
