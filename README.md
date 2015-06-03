@@ -1,10 +1,6 @@
 Reloaded
 ========
 
-ROLLBACK TEST
-ROLLBACK TEST
-ROLLBACK TEST
-
 Re-engineer and refresh the zTunnel!
 
 Installation
