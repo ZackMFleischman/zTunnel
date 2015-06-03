@@ -27,8 +27,8 @@ sleep 10
 
 # if new deploy fails then rollback
 if ! ps -ef | grep " $pid " | grep -v grep; then 
-	ln -nsf $old ~/Documents/Processing/current
-	ln -nsf $current ~/Documents/Processing/old
+	ln -nsf $old ~/Documents/Processing/old
+	ln -nsf $current ~/Documents/Processing/current
 	processing-java --run --sketch=/Users/admin/Documents/Processing/current --output=/Users/admin/Documents/Processing/current/output > /tmp/test 2>&1 &
 	echo fail > /Volumes/Tunnel/resulttemp
 else
