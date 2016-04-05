@@ -5,7 +5,7 @@ Re-engineer and refresh the zTunnel!
 
 This is the software to drive the animations in the Zynga Light Tunnel in the atrium.
 
-[](https://github.com/zFleischman/zTunnel/blob/master/light_tunnel.png)
+![alt tag](https://github.com/zFleischman/zTunnel/blob/master/light_tunnel.png)
 
 ##Installation
 
